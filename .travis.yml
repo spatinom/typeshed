@@ -1,4 +1,4 @@
 language: python
 python:
   - "3.9"
-install: pip install --user -r requirements.txt
+install: pip install --user -r requirements-tests.txt
