@@ -2,3 +2,4 @@ language: python
 python:
   - "3.9"
 install: skip
+script: python3 tests/stubtest_third_party.py cffi
