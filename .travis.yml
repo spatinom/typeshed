@@ -4,4 +4,4 @@ python:
 install: 
   - pip install -U pip
   - pip install -r requirements-tests.txt
-script: python3 tests/stubtest_third_party.py
+script: python3 scripts/runtests.py stubs/cffi
